@@ -2,12 +2,11 @@ package restaurant;
 
 import java.util.Scanner;
 
-public class Restaurant {
+public class Main {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int size;
-        size = Integer.parseInt(s.nextLine());
+        int size = Integer.parseInt(s.nextLine());
         BST tree = new BST();
         int j = 0;
         for (int i = 0; i < size; i++) {
