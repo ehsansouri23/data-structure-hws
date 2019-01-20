@@ -1,4 +1,4 @@
-import restaurant.BST;
+package restaurant;
 
 import java.util.Scanner;
 
