@@ -22,12 +22,12 @@ public class Tree {
         adj.get(w).add(v);
     }
 
-    public final void longestPathLength() {
+    public final int longestPathLength() {
         KeyValue t1;
         KeyValue t2;
         t1 = longestPath(0);
         t2 = longestPath(t1.getKey());
-        System.out.print(t2.getValue());
+        return t2.getValue();
     }
 
     public KeyValue longestPath(int node) {
